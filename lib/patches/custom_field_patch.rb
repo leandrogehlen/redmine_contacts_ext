@@ -16,7 +16,7 @@ module CustomFieldPatch
         def possible_values_options_with_override(obj = nil)
             case field_format
             when 'company'                
-                Contact.find_all_by_is_company(true).collect{ |c| [ c.to_s, c.id.to_s ] }
+                Contact.find(:all, :conditions => {:is_company => true}, :order => "first_name").collect{ |c| [ c.to_s, c.id.to_s ] }
             else
                 possible_values_options_without_override(obj)
             end
