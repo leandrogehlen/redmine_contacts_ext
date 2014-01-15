@@ -1,5 +1,5 @@
 Redmine::CustomFieldFormat.map do |fields|   
-  fields.register CompanyFieldFormat.new('company', :label => :label_company, :only => %w(Issue Project), :edit_as => 'list')
+  fields.register CompanyFieldFormat.new('company', :label => :label_crm_company, :only => %w(Issue Project), :edit_as => 'list')
 end
 
 Redmine::Plugin.register :redmine_company do
