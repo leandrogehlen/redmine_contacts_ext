@@ -1,7 +1,10 @@
 Redmine Company
 ===============
 
-Provide additional resources for corporate control
+Provide additional resources to [CRM Plugin](http://redminecrm.com/projects/crm)
+
+*  Allows create the company custom field in the tasks.
+
 
 Resources
 ---------
