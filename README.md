@@ -1,5 +1,5 @@
-Redmine Company
-===============
+Redmine Contacts Extension
+==========================
 
 Provide additional resources to [CRM Plugin](http://redminecrm.com/projects/crm)
 
