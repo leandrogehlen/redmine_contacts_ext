@@ -3,11 +3,11 @@ Redmine::CustomFieldFormat.map do |fields|
 end
 
 Redmine::Plugin.register :redmine_company do
-  name 'Redmine Company plugin'
+  name 'Redmine Contacts Extension Plugin'
   author 'Leandro Guindani Gehlen'
   description 'Provide additional resources for corporate control'
   version '0.0.1'
-  url 'https://github.com/leandrogehlen/redmine_company'
+  url 'https://github.com/leandrogehlen/redmine_contacts_ext'
   author_url 'http://leandrogehlen.github.com/sobre'
   
   requires_redmine :version_or_higher => '2.1.2'
