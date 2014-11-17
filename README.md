@@ -3,7 +3,7 @@ Redmine Contacts Extension
 
 Provide additional resources to [CRM Plugin](http://redminecrm.com/projects/crm)
 
-*  Allows create the company custom field in the tasks.
+*  Allows create company custom field in the tasks.
 
 
 Resources
